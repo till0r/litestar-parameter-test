@@ -1,4 +1,5 @@
-uv run litestar run --debug
+```
+$ uv run litestar run --debug
 Using Litestar app from app:app
 Starting server process ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ┌──────────────────────────────┬──────────────────────┐
@@ -44,3 +45,5 @@ Traceback (most recent call last):
   File "/Users/till/Repositories/litestar-parameter-test/.venv/lib/python3.11/site-packages/litestar/_signature/model.py", line 218, in parse_values_from_connection_kwargs
     raise cls._create_exception(messages=messages, connection=connection) from e
 litestar.exceptions.http_exceptions.ValidationException: 400: Validation failed for GET /params?some_bool=
+
+```
